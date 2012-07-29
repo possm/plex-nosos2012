@@ -26,7 +26,7 @@ def Start():
     
 
     MediaContainer.title1 = NAME
-    MediaContainer.viewGroup = "List"
+    MediaContainer.viewGroup = "InfoList"
     MediaContainer.art = R(ART)
     DirectoryItem.thumb = R(ICON)
     VideoItem.thumb = R(ICON)
@@ -38,7 +38,7 @@ def Start():
 
 def VideoMainMenu():
 
-	dir = MediaContainer(viewGroup="PanelStream")
+	dir = MediaContainer(viewGroup="InfoList")
 	url ='http://nos.nl/os2012/wedstrijdschema/'
 	itemnr = 00
 	for item in HTML.ElementFromURL(url).xpath('//*[@id="os-videoplayer"]/div/div[2]/ol/li'):
