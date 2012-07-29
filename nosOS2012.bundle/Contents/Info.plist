@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.plexapp.plugins.ctvolympics</string>
+	<key>PlexFrameworkVersion</key>
+	<string>2</string>
+	<key>PlexClientPlatforms</key>
+	<string>*</string>
+	<key>PlexPluginMode</key>
+	<string>AlwaysOn</string>
+	<key>PlexPluginRegions</key>
+	<array>
+		<string>NL</string>
+	</array>
+	<key>PlexMediaContainer</key>
+	<array>
+		<string>MP4</string>
+	</array>
+</dict>
+</plist>
