@@ -21,8 +21,8 @@ def Start():
     Plugin.AddViewGroup("InfoList", viewMode="InfoList", mediaType="items")
     Plugin.AddViewGroup("List", viewMode="List", mediaType="items")
     Plugin.AddViewGroup("PanelStream", viewMode="PanelStream", mediaType="items")
-	
-	MediaContainer.title1 = NAME
+    
+    MediaContainer.title1 = NAME
     MediaContainer.viewGroup = "InfoList"
     MediaContainer.art = R(ART)
     DirectoryItem.thumb = R(ICON)
