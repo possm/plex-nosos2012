@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.plexapp.plugins.ctvolympics</string>
+	<string>com.plexapp.plugins.nosolympics</string>
 	<key>PlexFrameworkVersion</key>
 	<string>2</string>
 	<key>PlexClientPlatforms</key>
@@ -16,7 +16,7 @@
 	</array>
 	<key>PlexMediaContainer</key>
 	<array>
-		<string>MP4</string>
+		<string>Flash</string>
 	</array>
 </dict>
 </plist>

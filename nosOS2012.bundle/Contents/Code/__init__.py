@@ -41,7 +41,7 @@ def VideoMainMenu():
 	dir = MediaContainer(viewGroup="InfoList")
 	url ='http://nos.nl/os2012/wedstrijdschema/'
 	itemnr = 00
-	for item in HTML.ElementFromURL(url).xpath('//*[@id="os-videoplayer"]/div/div[2]/ol/li'):
+	for item in HTML.ElementFromURL(url).xpath('//div[@class="channels"]/ol/li'):
 		itemnr = itemnr + 01
 
 		
