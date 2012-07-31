@@ -14,9 +14,17 @@
 	<array>
 		<string>NL</string>
 	</array>
-	<key>PlexMediaContainer</key>
+	<key>PlexClientCapabilities</key>
+	<dict>
+    	<key>protocols</key>
+    	<array>
+        	<string>webkit</string>
+    	</array>
+	</dict>
+		<key>PlexMediaContainer</key>
 	<array>
-		<string>Flash</string>
+    	<string>Flash</string>
+    	<string>Silverlight</string>
 	</array>
 </dict>
 </plist>

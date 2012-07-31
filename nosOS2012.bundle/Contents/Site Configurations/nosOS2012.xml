@@ -3,9 +3,7 @@
 	site="http://*.nos.nl/os2012/*" 
 	plugin="http://s.nos.nl/liveplayer/os2012/nos_osmf.swf" 
 	initialState="playing"
-	version="1.0"
->
-			
+	version="1.0">
 	<crop x="0" y="0" width="608" height="342" />
 	<state name="playing">
 	</state>
